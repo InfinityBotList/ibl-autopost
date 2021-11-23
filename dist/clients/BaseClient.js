@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.BaseClient = void 0;
 const infinity_bots_1 = require("infinity-bots");
-const typed_emitter_1 = require("@jpbberry/typed-emitter");
-class BaseClient extends typed_emitter_1.EventEmitter {
+const ibl_emitter_1 = require("ibl-emitter");
+class BaseClient extends ibl_emitter_1.EventEmitter {
     constructor(auth, options) {
         var _a, _b, _c;
         super();

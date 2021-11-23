@@ -1,5 +1,5 @@
 import { InfinityBots } from 'infinity-bots'
-import { EventEmitter } from '@jpbberry/typed-emitter'
+import { EventEmitter } from 'ibl-emitter'
 
 import { BotStatistics } from 'infinity-bots/dist/typings'
 
