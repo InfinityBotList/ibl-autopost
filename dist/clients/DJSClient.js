@@ -28,10 +28,9 @@ class DJSClient extends BaseClient_1.BaseClient {
         });
     }
     async getStats() {
-        var _a;
         return {
             servers: this.client.guilds.cache.size || 0,
-            shards: ((_a = this.client.shard) === null || _a === void 0 ? void 0 : _a.ids[0]) || 0,
+            shards: this.client.options.shardCount || 0
         };
     }
 }

@@ -43,7 +43,7 @@ export class DJSClient extends BaseClient implements BaseClientInterface {
     public async getStats (): Promise<BotStatistics> {
         return {
             servers: this.client.guilds.cache.size || 0,
-            shards: this.client.shard?.ids[0] || 0,
+            shards: this.client.options.shardCount || 0
         }
     }
 }

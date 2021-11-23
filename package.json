@@ -1,6 +1,6 @@
 {
     "name": "ibl-autopost",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "API Wrapper to Automatically Post Stats to the Infinity Bot List API!",
     "main": "dist/index.js",
     "scripts": {

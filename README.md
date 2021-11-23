@@ -1,5 +1,5 @@
 # Infinity Auto Post
-The easy way to Post your Bots Server and Shard Count. Inspired by the Top.gg Auto Poster
+The easy way to Post your Bots Server and Shard Count.
 
 > Note: This Module will post stats every 5 Minutes
 
