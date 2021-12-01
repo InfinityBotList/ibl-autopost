@@ -1,6 +1,6 @@
 {
     "name": "ibl-autopost",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "API Wrapper to Automatically Post Stats to the Infinity Bot List API!",
     "main": "dist/index.js",
     "scripts": {
@@ -13,7 +13,7 @@
       "url": "git+https://github.com/InfinityBotList/ibl-autopost.git"
     },
     "author": "TheRealToxicDev",
-    "license": "MIT",
+    "license": "ISC",
     "bugs": {
       "url": "https://github.com/InfinityBotList/ibl-autopost/issues"
     },
