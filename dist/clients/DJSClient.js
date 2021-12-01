@@ -29,8 +29,8 @@ class DJSClient extends BaseClient_1.BaseClient {
     }
     async getStats() {
         return {
-            servers: this.client.guilds.cache.size || 0,
-            shards: this.client.options.shardCount || 0
+            servers: this.client.guilds.cache.size,
+            shards: this.client.options.shardCount
         };
     }
 }
