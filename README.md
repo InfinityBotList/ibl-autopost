@@ -7,7 +7,7 @@ The easy way to Post your Bots Server and Shard Count.
 
 ## Links
 
-- Docs: [View the Docs](https://docs.botlist.site)
+- Docs: [View the Docs](https://docs.botlist.site/libraries/node/#auto-poster)
 - Support: [Join our Discord](https://botlist.site/discord)
 
 ---
