@@ -1,4 +1,7 @@
 # Infinity Auto Post
+
+[![CodeQL](https://github.com/InfinityBotList/ibl-autopost/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/InfinityBotList/ibl-autopost/actions/workflows/codeql-analysis.yml)
+
 The easy way to Post your Bots Server and Shard Count stats.
 
 > Note: This Module will post stats every 5 Minutes
