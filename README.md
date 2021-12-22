@@ -1,5 +1,5 @@
 # Infinity Auto Post
-The easy way to Post your Bots Server and Shard Count.
+The easy way to Post your Bots Server and Shard Count stats.
 
 > Note: This Module will post stats every 5 Minutes
 
