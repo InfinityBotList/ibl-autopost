@@ -1,4 +1,4 @@
-name: Node.js Package deploy
+name: NPM 1
 on:
   push:
     branches: [ master ]
