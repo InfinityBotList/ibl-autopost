@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://npm.pkg.github.com
-     scope: "ibl-autopost"
+     scope: "@ibl-autopost"
        - run: npm install
        - run: git push --tags && git push
        - run: npm publish --access public
