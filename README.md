@@ -1,6 +1,7 @@
 # Infinity Auto Post
 
 [![CodeQL](https://github.com/InfinityBotList/ibl-autopost/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/InfinityBotList/ibl-autopost/actions/workflows/codeql-analysis.yml)
+[![njsscan sarif](https://github.com/InfinityBotList/ibl-autopost/actions/workflows/njsscan-analysis.yml/badge.svg)](https://github.com/InfinityBotList/ibl-autopost/actions/workflows/njsscan-analysis.yml)
 
 The easy way to Post your Bots Server and Shard Count stats.
 
