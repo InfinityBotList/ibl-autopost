@@ -19,6 +19,7 @@ The easy way to Post your Bots Server and Shard Count stats.
 
 ## Supported Librarys
 - Detritus
+- Discord-Rose
 - Discord.js
 - Eris
 

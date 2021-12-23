@@ -1,8 +1,6 @@
 import { InfinityBots } from 'infinity-bots'
 import { EventEmitter } from 'ibl-emitter'
-
 import { BotStatistics } from 'infinity-bots/dist/typings'
-
 import { AutoPostOptions } from '../typings'
 
 export interface BaseClientInterface {
