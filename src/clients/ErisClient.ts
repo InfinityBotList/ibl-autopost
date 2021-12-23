@@ -3,19 +3,9 @@ import { BotStatistics } from 'infinity-bots/dist/typings'
 import { AutoPostOptions } from '../typings'
 import { Client } from 'eris'
 
-
-/**
- * Auto-Poster For Eris
- */
 export class ErisClient extends BaseClient implements BaseClientInterface {
   private client: Client
 
-  /**
-   * Create a new poster
-   * @param token Top.gg API Token
-   * @param client Your Eris Client
-   * @param options Options
-   */
   constructor (auth: string, client: any, options?: AutoPostOptions) {
 
     if (!auth) throw new Error('[Infinity API] Auth Token not found, Please provide or generate a valid Infinity Bots Auth Token');

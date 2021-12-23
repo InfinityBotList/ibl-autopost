@@ -1,6 +1,6 @@
 {
     "name": "ibl-autopost",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "API Wrapper to Automatically Post Stats to the Infinity Bot List API!",
     "main": "dist/index.js",
     "scripts": {
@@ -19,6 +19,7 @@
     },
     "homepage": "https://github.com/InfinityBotList/ibl-autopost#readme",
     "devDependencies": {
+      "detritus-client": "latest",
       "discord-rose": "latest",
       "discord.js": "latest",
       "eris": "latest"

@@ -14,13 +14,13 @@ export class DetritusClient extends BaseClient implements BaseClientInterface {
 
     if (!client)
       throw new Error(
-        '[Infinity API] Client not Found, Please provide a valid Detritus ShardClient',
+        '[Infinity API] Client not Found, Please provide a valid Detritus Shard Client',
       );
 
     const Discord = require('detritus-client');
 
     if (!(client instanceof Discord.ShardClient))
-      throw new Error('[Infinity API] Client is not a Detritus ShardClient');
+      throw new Error('[Infinity API] Client is not a Detritus Shard Client');
 
     super(auth, options);
 
