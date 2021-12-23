@@ -3,18 +3,9 @@ import { BotStatistics } from 'infinity-bots/dist/typings';
 import { AutoPostOptions } from '../typings';
 import { ShardClient } from 'detritus-client';
 
-/**
- * Auto-Poster For Detritus
- */
 export class DetritusClient extends BaseClient implements BaseClientInterface {
   private client: ShardClient;
 
-  /**
-   * Create a new poster
-   * @param token Top.gg API Token
-   * @param client Your Detritus ShardClient
-   * @param options Options
-   */
   constructor(auth: string, client: any, options?: AutoPostOptions) {
     if (!auth)
       throw new Error(
