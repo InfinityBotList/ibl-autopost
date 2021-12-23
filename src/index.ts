@@ -34,7 +34,7 @@ export function InfinityAutoPoster (auth: string, client: any, options?: AutoPos
 
     if (djs && client instanceof djs.exports.Client) return new DJSClient(auth, client, options);
     if (eris && client instanceof eris.exports.Client) return new ErisClient(auth, client, options);
-    if (detritus && client instanceof detritus.exports.Client) return new DetritusClient(auth, client, options);
+    if (detritus && client instanceof detritus.exports.ShardClient) return new DetritusClient(auth, client, options);
 
     throw new Error('You are using a Unsupported Library. Supported Librarys are Discord.js, Detritus and Eris');
 }
